@@ -23,7 +23,7 @@ class CashRegister
    
     @items+= [title] * quantity
     
-    @last_item = price
+    @last_item = price * quantity
     
   end
   
